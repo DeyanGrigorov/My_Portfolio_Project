@@ -1,7 +1,7 @@
 from django.urls import path
 
-from my_portfolio_project.common import views
+from my_portfolio_project.common.views import LandingPage
 
 urlpatterns = [
-    path('', views.landing_page, name='landing page'),
+    path('', LandingPage.as_view(), name='landing page'),
 ]
