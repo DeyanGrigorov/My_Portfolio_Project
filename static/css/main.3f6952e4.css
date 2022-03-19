@@ -274,7 +274,7 @@ body {
     font-family: Roboto Mono, Helvetica, Arial, sans-serif;
     font-size: 11px;
     line-height: 1.78;
-    color: #000;
+    color: #fff;
     background-color: #fff
 }
 
@@ -2362,9 +2362,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default, .btn-default.active, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus, .btn-default:active, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-default:focus, .btn-default:hover, .open > .btn-default.dropdown-toggle, .open > .btn-default.dropdown-toggle.focus, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle:hover {
-    color: #000;
+    color: white;
     background-color: transparent;
-    border-color: #000
+    border-color: white
 }
 
 .btn-default.active, .btn-default:active, .open > .btn-default.dropdown-toggle {
@@ -4903,7 +4903,7 @@ blockquote .small, blockquote small {
 }
 
 .fa-icon {
-    color: #000;
+    color: white;
     width: 32px;
     height: 32px;
     display: inline-block;
