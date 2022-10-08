@@ -7,5 +7,6 @@ urlpatterns = [
     path('', include('my_portfolio_project.common.urls')),
     path('', include('my_portfolio_project.about_me.urls')),
     path('', include('my_portfolio_project.contact.urls')),
+    path('', include('my_portfolio_project.articles.urls')),
 
 ]
