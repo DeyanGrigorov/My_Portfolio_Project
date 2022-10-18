@@ -1,8 +1,7 @@
-You need to create a model for the articles
+Fix search bar
 
-and then after migrating and db model is created, create a admin site from where you will add articles
+Create details view for the articles
 
-see here for reference:
-https://djangocentral.com/building-a-blog-application-with-django/
+
 
 
