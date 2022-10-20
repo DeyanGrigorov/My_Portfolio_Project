@@ -16,12 +16,21 @@ def show_articles(request):
         'page': page,
         'articles': articles
     }
-    return render(request, 'works.html', context)
+    return render(request, 'articles.html', context)
+
+
+def details(request, pk):
+    article_details = Article.objects.get(pk=pk)
+
+    context = {
+        'article_details': article_details,
+    }
+    return render(request, 'details_page.html', context)
 
 
 class SearchResultsView(ListView):
     model = Article
-    template_name = 'works.html'
+    template_name = 'articles.html'
     paginate_by = 3
 
     def get_context_data(self, **kwargs):

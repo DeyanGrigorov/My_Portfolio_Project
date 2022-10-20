@@ -1,6 +1,8 @@
 Fix search bar
 
-Create details view for the articles
+Details page fix styles
+
+...
 
 
 
