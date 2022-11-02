@@ -1,8 +1,5 @@
-Fix search bar
+Fix search bar functionality - make search template
 
-Details page fix styles
-
-...
 
 
 
