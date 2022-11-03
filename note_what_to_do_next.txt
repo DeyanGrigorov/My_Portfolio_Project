@@ -1,5 +1,7 @@
 Fix search bar functionality - make search template
 
+Maybe make better template for articles with functionality to add hyperlinks, etc.
+
 
 
 
